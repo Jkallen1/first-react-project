@@ -14,16 +14,26 @@ function App() {
 
     <>
       <Destinations />
-      <Packages title="Tour Packages"
-        description="We offer a variety of group (minimum 5 people) packages. Whether you've spent some summers together or this might be your first adventure, we've got the perfect vacation for you."
-        package1Title="Guided Trips"
-        package1Description="Looking for the complete experience? Take a tour with one of our experts. They'll show you secrets that you're likely to miss otherwise."
-        package2Title="Photo Trips"
-        package2Description="Want to experience nature's beauty without all of that annoying exercise? Take a photo tour on one of our 'Life is a party!' buses."
-        package3Title="Biking Trips"
-        package3Description="If bicycles are more your speed, consider taking a tour through one of our mountain or city bike paths. We'll provide the bikes, and lunch too!"
-        package4Title="Racing Trips"
-        package4Description="Got a competitive spirit? Sign up for one of our challenge-based marathons! Try to reach the summit before any other group." />
+      <PackageItem
+        iconClass="fa fa-compass fa-4x"
+        title="Guided Trips"
+        description="Looking for the complete experience? Take a tour with one of our experts. They'll show you secrets that you're likely to miss otherwise."
+      />
+      <PackageItem
+        iconClass="fa fa-camera-retro fa-4x"
+        title="Photo Trips"
+        description="Want to experience nature's beauty without all of that annoying exercise? Take a photo tour on one of our Life is a party! buses."
+      />
+      <PackageItem
+        iconClass="fa fa-bicycle fa-4x"
+        title="Biking Trips"
+        description="If bicycles are more your speed, consider taking a tour through one of our mountain or city bike paths. We'll provide the bikes, and lunch too!"
+      />
+      <PackageItem
+        iconClass="fa fa-flag-checkered fa-4x"
+        title="Racing Trips"
+        description="Got a competitive spirit? Sign up for one of our challenge-based marathons! Try to reach the summit before any other group."
+      />
       <Testimonials title="Testimonials from our adventurers:"
         quote1="Wow! This tour made me realize how much I love being outside with my friends. After going on one of these tours, I can safely say that beer pong is my favorite game all time, also the cultural programs were really interesting!"
         author1="- Albert Herter"
