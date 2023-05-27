@@ -10,4 +10,4 @@ function PackageItem(props) {
 
 
 
-export default Packages;
+export default PackageItem;
